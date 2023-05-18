@@ -1,0 +1,185 @@
+body{
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+#detalhe_cabeçalho{
+  height: 5px;
+  background-color: #8A0808;
+}
+#cabeçalho{
+  border: 1px solid red;
+  background-color: #FA5858;
+  height: 110px;
+}
+#logo img{
+  width: 100px;
+  margin-left: 10%;
+  float: left;
+}
+#umalojasergipana img{
+  width: 115px;
+  margin-right: 10%;
+  top: 30px;
+  position: relative;
+  float: right;
+}
+#nome_produto{
+  color: #2E2E2E;
+  font-family: Roboto, sans-serif;
+  font-size: 1.8em;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+#valor{
+  margin-left: 5%;
+  margin-top: 5%;
+  font-family: Roboto, sans-serif;
+  font-size: 1.8em;
+}
+#preço{
+  float: left;
+}
+#desconto{
+  float: left;
+  color: red;
+  position: relative;
+  top: 42px;
+  margin-left: 0.5%;
+  font-size: 0.5em;
+  text-decoration: line-through;
+}
+#compra{
+  border: 1px solid red;
+}
+.btn-comprar{
+  background-color: green;
+  color: white;
+  padding: 15px 200px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.3em;
+  font-family: arial;
+  cursor: pointer;
+  margin-left: 5%;
+}
+#informações{
+  color: #2E2E2E;
+  font-family: arial;
+  font-size: 1em;
+  margin: 5%;
+  padding: 2%;
+  background-color: #F2F2F2;
+}
+#botão{
+  clear: both;
+  font-family: arial;
+}
+#botão button:hover{
+  background: greenyellow;
+}
+#botão img{
+  margin-left: 20%;
+}
+#botão span{
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  margin-left: 5%;
+}
+.slider{
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+.slides{
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+.slides input{
+  display: none;
+}
+.slide{
+  width: 25%;
+  position: relative;
+  transition: 1s;
+}
+.slide img{
+  width: 435px;
+}
+.manual-navegatio{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn{
+  border: 2px solid grey;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.manual-btn:not(:last-child){
+  margin-right: 70px;
+}
+.manual-btn:hover{
+  background-color: #fff;
+}
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+#radio2:checked ~ .first{
+  margin-left: -25%;
+}
+#radio3:checked ~ .first{
+  margin-left: -50%;
+}
+#radio4:checked ~ .first{
+  margin-left: -75%;
+}
+.navegation-auto div{
+  border: 2px solid #20a6ff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.navegation-auto{
+  position: absolute;
+  width: 800px;
+  margin-top: 360px;
+  display: flex;
+  justify-content: center;
+}
+.navegation-auto div:not(:last-child){
+  margin-right: 70px;
+}
+#radio1:checked ~ .navegation-auto .auto-btn1{
+  background-color: red;
+}
+#radio2:checked ~ .navegation-auto .auto-btn2{
+  background-color: red;
+}
+#radio3:checked ~ .navegation-auto .auto-btn3{
+  background-color: red;
+}
+#radio4:checked ~ .navegation-auto .auto-btn4{
+  background-color: red;
+}
+#rodapé{
+  margin-top: 100%;
+  height: 3%;
+  background-color: grey;
+  font-size: 16px;
+}
+#rodapé2{
+  height: 1%;
+  background-color: black;
+}
+
